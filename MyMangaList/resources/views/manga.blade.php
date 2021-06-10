@@ -1,8 +1,9 @@
 @extends('layouts.layout')
 
 @section('title')
-    Informations sur le manga {{$manga->titre}}
+    {{$manga->titre}}
 @endsection
+
 @section('content')
     <div class="card">
         <header class="card-header">
