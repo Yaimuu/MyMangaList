@@ -47,9 +47,9 @@
             </div>
         </div>
 
-        <div class="container">
-            @yield('content')
-        </div>
+
+        @yield('content')
+
 
         <footer>
             MyMangaList - copyright 3AInfo - 2021
