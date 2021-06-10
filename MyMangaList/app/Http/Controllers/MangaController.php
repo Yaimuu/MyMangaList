@@ -10,7 +10,7 @@ class MangaController extends Controller
     public function index()
     {
         $mangas = Manga::all();
-        return View::make('manga', compact('mangas'));
+        return view('manga', compact('mangas'));
 
     }
 }
