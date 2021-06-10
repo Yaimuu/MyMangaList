@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class genremanga extends Model
+class GenreManga extends Model
 {
     //
 }

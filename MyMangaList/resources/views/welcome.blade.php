@@ -4,10 +4,14 @@
     Acceuil
 @endsection
 
+
 @section('sidebar')
-<h1>Tous les mangas :</h1>
+    <div class="links">
+        <a href="mangas">Mangas</a>
+        <a href="mangas">Tomes</a>
+    </div>
 @endsection
 
 @section('content')
-
+regfvs
 @endsection

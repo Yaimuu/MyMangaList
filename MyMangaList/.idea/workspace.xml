@@ -2,10 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cdd62f9-c72d-4dfe-9759-c43a4df3be38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Chapitre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Dessinateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Editer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Editeur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/GenreManga.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MangaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UtilisateurController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Manga.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/MangaLectureEnCours.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/MangaLectureFini.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Utilisateur.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ami.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Ami.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/artiste.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Artiste.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auteur.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Auteur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/chapitre.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/creer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Creer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dessinateur.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/editer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/editeur.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/genre.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Genre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/genremanga.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/manga.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mangalectureencours.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mangalecturefini.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tome.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utilisateur.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layoutUser.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +200,7 @@
       <workItem from="1622390857333" duration="2296000" />
       <workItem from="1623153817158" duration="4247000" />
       <workItem from="1623329574391" duration="792000" />
-      <workItem from="1623330748052" duration="4012000" />
+      <workItem from="1623330748052" duration="7496000" />
     </task>
     <servers />
   </component>
