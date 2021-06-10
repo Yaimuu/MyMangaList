@@ -12,7 +12,7 @@ CREATE TABLE Manga(
    Id_Manga SERIAL,
    titre VARCHAR(300),
    fini BOOL,
-   image VARCHAR(50),
+   image VARCHAR(300),
    PRIMARY KEY(Id_Manga)
 );
 

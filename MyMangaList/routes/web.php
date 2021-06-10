@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::resource('mangas', MangaController::class);
+Route::resource('genres', GenreController::class);

@@ -8,6 +8,6 @@ class Manga extends Model
 {
     public function getAll()
     {
-
+        
     }
 }
