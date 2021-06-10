@@ -33,6 +33,12 @@
                 </div>
             @endif
 
+            <div class="links">
+                <a href="/">Accueil</a>
+                <a href="mangas">Mangas</a>
+                <a href="tomes">Tomes</a>
+            </div>
+
         @yield('sidebar')
 
         </nav>

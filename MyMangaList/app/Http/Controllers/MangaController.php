@@ -11,7 +11,7 @@ class MangaController extends Controller
     public function index()
     {
         $mangas = DB::table('Manga')->get();
-        return view('manga', compact('mangas'));
+        return view('mangas', compact('mangas'));
 
     }
 }
