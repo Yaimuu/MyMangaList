@@ -6,13 +6,15 @@
 
         <title>MyMangaList</title>
 
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                /*background-color: #fff;*/
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -24,11 +26,11 @@
                 height: 100vh;
             }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+            /*.flex-center {*/
+            /*    align-items: center;*/
+            /*    display: flex;*/
+            /*    justify-content: center;*/
+            /*}*/
 
             .position-ref {
                 position: relative;
