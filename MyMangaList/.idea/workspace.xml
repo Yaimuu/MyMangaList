@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cdd62f9-c72d-4dfe-9759-c43a4df3be38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyMangaList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ami.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/artiste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/auteur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/chapitre.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/creer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dessinateur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/editer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/editeur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/genre.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/genremanga.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/manga.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mangalectureencours.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mangalecturefini.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utilisateur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +14,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -183,7 +164,7 @@
       <workItem from="1622390857333" duration="2296000" />
       <workItem from="1623153817158" duration="4247000" />
       <workItem from="1623329574391" duration="792000" />
-      <workItem from="1623330748052" duration="637000" />
+      <workItem from="1623330748052" duration="4012000" />
     </task>
     <servers />
   </component>
