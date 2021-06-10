@@ -6,8 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Manga extends Model
 {
+    protected $fillable=["*"];
     public function getAll()
     {
-        
+
     }
 }

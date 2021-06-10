@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <p>yo</p>
+    <div class="container">
+        @foreach ($genres as $genre)
+            
+        @endforeach
+    </div>
 @endsection
