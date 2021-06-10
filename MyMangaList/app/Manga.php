@@ -4,7 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class tome extends Model
+class Manga extends Model
 {
-    //
+    public function getAll()
+    {
+
+    }
 }

@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class artiste extends Model
+class MangaLectureEnCours extends Model
 {
     //
 }

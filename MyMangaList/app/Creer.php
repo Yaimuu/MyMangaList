@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class chapitre extends Model
+class Creer extends Model
 {
     //
 }
