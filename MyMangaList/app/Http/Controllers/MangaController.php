@@ -48,9 +48,9 @@ class MangaController extends Controller
             
         }
 
-        $artiste_auteur = Artiste::where('Id_Artiste', $auteur->Id_Artiste)->first();
-        $artiste_dessinateur = Artiste::where('Id_Artiste', $dessinateur->Id_Artiste)->first();
+        $artiste_auteur = Artiste::where('Id_Artiste', $auteur->Id_Artiste);
+        $artiste_dessinateur = Artiste::where('Id_Artiste', $dessinateur->Id_Artiste);
         
-        return view('manga', compact('manga','tomes','artiste_auteur'));
+        return view('manga', compact('manga','tomes','artiste_auteur','artiste_dessinateur'));
     }
 }

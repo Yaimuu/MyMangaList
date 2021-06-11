@@ -171,5 +171,11 @@ INSERT INTO Manga VALUES(DEFAULT, '17-sai: Hajimete no H', true, 'https://cdn.my
 INSERT INTO Artiste VALUES(DEFAULT, 'Shinjou', 'Mayu'); 
 INSERT INTO Manga VALUES(DEFAULT, 'Angelic Layer', true, 'https://cdn.myanimelist.net/images/manga/3/179060.jpg'); 
 INSERT INTO Manga VALUES(DEFAULT, 'D.N.Angel', false, 'https://cdn.myanimelist.net/images/manga/2/145023.jpg'); 
-INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru');
+
+insert into Tome values (2,1,"Tome 1",1,'1990-11-26','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
+insert into Tome values (2,2,"Tome 2",2,'1991-02-26','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
+insert into Tome values (2,3,'Tome 3',3,'1991-10-25','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
+insert into Tome values (2,4,'Tome 4',4,'199-02-26','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
+
 
