@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Manga extends Model
 {
     protected $fillable=["*"];
-    public function getAll()
-    {
 
-    }
+    protected $table = 'Manga'; 
+    protected $primaryKey = 'Id_Manga';
+
 }

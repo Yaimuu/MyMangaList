@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('title')
-    {{$manga->titre}}
+   Information sur {{$manga->titre}}
 @endsection
 
 @section('content')

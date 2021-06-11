@@ -134,3 +134,42 @@ CREATE TABLE GenreManga(
    FOREIGN KEY(Id_Manga) REFERENCES Manga(Id_Manga),
    FOREIGN KEY(Id_Genre) REFERENCES Genre(Id_Genre)
 );
+
+INSERT INTO Manga VALUES(DEFAULT, 'Monster', true, 'https://cdn.myanimelist.net/images/manga/3/54525.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Urasawa', 'Naoki'); 
+INSERT INTO Genre VALUES(DEFAULT, 'Mystery'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Berserk', false, 'https://cdn.myanimelist.net/images/manga/1/157897.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Miura', 'Kentarou'); 
+INSERT INTO Manga VALUES(DEFAULT, '20th Century Boys', true, 'https://cdn.myanimelist.net/images/manga/1/54437.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Urasawa', 'Naoki'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Yokohama Kaidashi Kikou', true, 'https://cdn.myanimelist.net/images/manga/1/171813.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Ashinano', 'Hitoshi'); 
+INSERT INTO Genre VALUES(DEFAULT, 'Drama'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Hajime no Ippo', false, 'https://cdn.myanimelist.net/images/manga/1/15282.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Morikawa', 'George'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Full Moon wo Sagashite', true, 'https://cdn.myanimelist.net/images/manga/3/175970.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Tanemura', 'Arina'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Tsubasa: RESERVoir CHRoNiCLE', true, 'https://cdn.myanimelist.net/images/manga/2/27076.jpg'); 
+INSERT INTO Manga VALUES(DEFAULT, 'xxxHOLiC', true, 'https://cdn.myanimelist.net/images/manga/3/217533.jpg'); 
+INSERT INTO Genre VALUES(DEFAULT, 'Comedy'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Naruto', true, 'https://cdn.myanimelist.net/images/manga/3/117681.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Kishimoto', 'Masashi'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Bleach', true, 'https://cdn.myanimelist.net/images/manga/2/180089.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Kubo', 'Tite'); 
+INSERT INTO Manga VALUES(DEFAULT, 'One Piece', false, 'https://cdn.myanimelist.net/images/manga/3/55539.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Oda', 'Eiichiro'); 
+INSERT INTO Genre VALUES(DEFAULT, 'Action'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Death Note', true, 'https://cdn.myanimelist.net/images/manga/2/54453.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Obata', 'Takeshi'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Kamichama Karin', true, 'https://cdn.myanimelist.net/images/manga/2/2074.jpg'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Kamikaze Kaitou Jeanne', true, 'https://cdn.myanimelist.net/images/manga/4/175801.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Tanemura', 'Arina'); 
+INSERT INTO Genre VALUES(DEFAULT, 'Adventure'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Slam Dunk', true, 'https://cdn.myanimelist.net/images/manga/2/157904.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Inoue', 'Takehiko'); 
+INSERT INTO Manga VALUES(DEFAULT, '17-sai: Hajimete no H', true, 'https://cdn.myanimelist.net/images/manga/3/4976.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Shinjou', 'Mayu'); 
+INSERT INTO Manga VALUES(DEFAULT, 'Angelic Layer', true, 'https://cdn.myanimelist.net/images/manga/3/179060.jpg'); 
+INSERT INTO Manga VALUES(DEFAULT, 'D.N.Angel', false, 'https://cdn.myanimelist.net/images/manga/2/145023.jpg'); 
+INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru'); 
+
