@@ -6,20 +6,26 @@
 
 @section('content')
     <div class="card">
-        <header class="card-header">
-            <h5 class="card-header-title">Titre : {{ $manga->titre }}</h5>
-        </header>
 
         @foreach ($tomes as $tome)
             <p>{{ $tome->nom }}</p>
         @endforeach
-        
-        {{-- <div class="card-content">
-            <div class="content">
-                <p>Dessinateur : {{ $artiste_dessinateur->nom }}</p>
-                <p>Scénariste : {{ $artiste_auteur->nom }}</p>
 
+        <section class="manga-info">
+            <div class="manga-card">
+                
+                <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
+                
+                <div class="title">
+                    {{$manga->titre}}
+                </div>
             </div>
-        </div> --}}
+            <div class="card-content" >
+                <div class="content">
+                    <p>Auteur : {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</p>
+                    <p>Dessinateur : {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</p>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection

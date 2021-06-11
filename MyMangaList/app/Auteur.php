@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Auteur extends Model
 {
-    protected $table = 'Artiste'; 
+    protected $table = 'Auteur'; 
 
 }

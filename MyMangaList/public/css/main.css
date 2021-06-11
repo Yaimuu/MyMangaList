@@ -120,3 +120,8 @@ footer
 {
     height: 50%;
 }
+
+.manga-info{
+    display: flex;
+    justify-content: center;
+}
