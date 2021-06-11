@@ -13,8 +13,8 @@
     <div class="mangas-container">
     @foreach($mangas as $manga)
 
-        <a href="/manga/{{ $manga->Id_Manga }}" class="manga-card">
-{{--            <a href="{{ route('mangas.show', $manga->Id_Manga) }}">--}}
+        <a href="manga/{{ $manga->Id_Manga }}" class="manga-card">
+            {{--<a href="{{ route('mangas.show', 'manga/' . $manga->Id_Manga) }}" class="manga-card">--}}
                 <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
 {{--            </a>--}}
             <div class="title">

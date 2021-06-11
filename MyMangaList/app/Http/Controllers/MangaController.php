@@ -26,6 +26,11 @@ class MangaController extends Controller
 
     public function show(Manga $manga)
     {
+        $manga = DB::table('Manga')
+            ->select("*")
+            ->where("Id_manga",'=',$manga->Id_Manga)
+        ->get()[0];
+        return view('manga', compact('manga'));
         // $tomes = DB::table('Tome')->where('Id_Manga',$manga->Id_Manga)->get();
         // $createurs = DB::table('Creer')->where('Id_Manga', $manga->Id_Manga)->get();
 
