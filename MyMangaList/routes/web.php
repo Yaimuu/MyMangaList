@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/mangas', MangaController::class);
-Route::get('/manga/{id}', MangaController::class.'@manga');
-Route::resource('/genres', GenreController::class);
+Route::resource('mangas', MangaController::class);
+Route::patch('mangas', [MangaController::class, 'index'])->name('mangas');
+Route::get('manga/{id}', MangaController::class.'@manga');
+Route::get('manga/{id}', MangaController::class.'@manga')->name('manga');
+Route::resource('genres', GenreController::class);
