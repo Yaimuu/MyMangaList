@@ -23,6 +23,11 @@
             </div>
             
         </header>
+
+        @foreach ($tomes as $tome)
+            <p>{{ $tome->nom }}</p>
+        @endforeach
+        
         {{-- <div class="card-content">
             <div class="content">
                 <p>Dessinateur : {{ $artiste_dessinateur->nom }}</p>
