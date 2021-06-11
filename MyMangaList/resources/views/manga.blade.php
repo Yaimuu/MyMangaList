@@ -8,6 +8,10 @@
     <div class="card">
         <header class="card-header">
             <h5 class="card-header-title">Titre : {{ $manga->titre }}</h5>
+            @foreach($tomes as $tome)
+                <img src="{{$tome->image}}" alt="{{$tome->nom}}" />
+            @endforeach
+            <p>Nom auteur :</p>
         </header>
         {{-- <div class="card-content">
             <div class="content">
@@ -16,5 +20,7 @@
 
             </div>
         </div> --}}
+        
+
     </div>
 @endsection
