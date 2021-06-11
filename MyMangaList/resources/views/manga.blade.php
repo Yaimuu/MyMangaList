@@ -8,8 +8,6 @@
 
 
     <section class="manga-info">
-
-
         <div class="manga-card">
             
             <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
@@ -30,12 +28,12 @@
             </div>
             @endforeach
         </div>
-        
+
         <div class="card-content" >
-            <div class="content">
-                <p>Auteur : {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</p>
-                <p>Dessinateur : {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</p>
-            </div>
+
+            <p>Auteur : {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</p>
+            <p>Dessinateur : {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</p>
+
         </div>
     </section>
 

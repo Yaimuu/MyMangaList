@@ -23,15 +23,6 @@ class MangaController extends Controller
 
     }
 
-    public function manga(Request $request, $id)
-    {
-        $manga = DB::table('Manga')
-            ->select("*")
-            ->where("Id_manga",'=',$id)
-        ->get()[0];
-        return view('manga', compact('manga'));
-    }
-
     public function show(Manga $manga)
     {
         $tomes = Tome::where('Id_Manga',$manga->Id_Manga)->get();
