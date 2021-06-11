@@ -16,7 +16,6 @@ class MangaController extends Controller
 {
     public function index()
     {
-        // $mangas = DB::table('Manga')->get();
         
         $mangas = Manga::all();
 
@@ -35,22 +34,22 @@ class MangaController extends Controller
 
     public function show(Manga $manga)
     {
-        // $tomes = Tome::where('Id_Manga',$manga->Id_Manga)->get();
-        // $createurs = Creer::where('Id_Manga', $manga->Id_Manga)->get();
+        $tomes = Tome::where('Id_Manga',$manga->Id_Manga)->get();
+        $createurs = Creer::where('Id_Manga', $manga->Id_Manga)->get();
 
-        // $auteur = new Auteur(); 
-        // $dessinateur = new Dessinateur(); 
+        $auteur = new Auteur(); 
+        $dessinateur = new Dessinateur(); 
 
-        // foreach ($createurs as $createur) {
-        //     $auteur  = Auteur::where('Id_Auteur', $createur->Id_Auteur)->first();
+        foreach ($createurs as $createur) {
+            $auteur  = Auteur::where('Id_Auteur', $createur->Id_Auteur)->first();
             
-        //     $dessinateur = Dessinateur::where('Id_Dessinateur', $createur->Id_Dessinateur)->first();
+            $dessinateur = Dessinateur::where('Id_Dessinateur', $createur->Id_Dessinateur)->first();
             
-        // }
+        }
 
-        // $artiste_auteur = Artiste::where('Id_Artiste', $auteur->Id_Artiste)->first();
-        // $artiste_dessinateur = Artiste::where('Id_Artiste', $dessinateur->Id_Artiste)->first();
+        $artiste_auteur = Artiste::where('Id_Artiste', $auteur->Id_Artiste)->first();
+        $artiste_dessinateur = Artiste::where('Id_Artiste', $dessinateur->Id_Artiste)->first();
         
-        return view('manga', compact('manga'));
+        return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur'));
     }
 }
