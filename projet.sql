@@ -173,10 +173,10 @@ INSERT INTO Manga VALUES(DEFAULT, 'Angelic Layer', true, 'https://cdn.myanimelis
 INSERT INTO Manga VALUES(DEFAULT, 'D.N.Angel', false, 'https://cdn.myanimelist.net/images/manga/2/145023.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru');
 
-insert into Tome values (2,1,'Tome 1',1,'1990-11-26','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
-insert into Tome values (2,2,'Tome 2',2,'1991-02-26','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
-insert into Tome values (2,3,'Tome 3',3,'1991-10-25','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
-insert into Tome values (2,4,'Tome 4',4,'1992-02-26','https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, 1, 'Tome 1', 1, '1990-11-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, 2, 'Tome 2', 2, '1991-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, 3, 'Tome 3', 3, '1991-10-25', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, 4, 'Tome 4', 4, '1992-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
 
 
 INSERT INTO Auteur VALUES (DEFAULT, 1);
@@ -220,18 +220,17 @@ INSERT INTO Creer VALUES(4,4,4);
 INSERT INTO Creer VALUES(5,5,5);
 INSERT INTO Creer VALUES(6,6,6);
 INSERT INTO Creer VALUES(7,7,7);
-INSERT INTO Creer VALUES(1,8,1)
-INSERT INTO Creer VALUES(2,9,2)
-INSERT INTO Creer VALUES(3,10,3)
-INSERT INTO Creer VALUES(4,11,4)
-INSERT INTO Creer VALUES(5,12,5)
-INSERT INTO Creer VALUES(6,13,6)
-INSERT INTO Creer VALUES(7,14,7)
-INSERT INTO Creer VALUES(1,15,1)
-INSERT INTO Creer VALUES(2,16,2)
-INSERT INTO Creer VALUES(3,17,3)
-INSERT INTO Creer VALUES(4,18,4)
-
+INSERT INTO Creer VALUES(1,8,1);
+INSERT INTO Creer VALUES(2,9,2);
+INSERT INTO Creer VALUES(3,10,3);
+INSERT INTO Creer VALUES(4,11,4);
+INSERT INTO Creer VALUES(5,12,5);
+INSERT INTO Creer VALUES(6,13,6);
+INSERT INTO Creer VALUES(7,14,7);
+INSERT INTO Creer VALUES(1,15,1);
+INSERT INTO Creer VALUES(2,16,2);
+INSERT INTO Creer VALUES(3,17,3);
+INSERT INTO Creer VALUES(4,18,4);
 
 INSERT INTO GenreManga VALUES (1,2);
 INSERT INTO GenreManga VALUES(2,4);
@@ -251,3 +250,4 @@ INSERT INTO GenreManga VALUES(15,5);
 INSERT INTO GenreManga VALUES(16,3);
 INSERT INTO GenreManga VALUES(17,4);
 INSERT INTO GenreManga VALUES(18,2);
+     
