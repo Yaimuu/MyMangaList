@@ -36,7 +36,6 @@
             <div class="links">
                 <a href="/">Accueil</a>
                 <a href="{{ route('mangas') }}">Mangas</a>
-                <a href="tomes">Tomes</a>
             </div>
 
         @yield('sidebar')

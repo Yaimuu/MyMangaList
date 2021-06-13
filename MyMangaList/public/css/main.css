@@ -55,7 +55,7 @@ footer
 }
 
 .title {
-    font-size: 84px;
+    font-size: 5em;
 }
 
 .links > a {
@@ -80,11 +80,12 @@ footer
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 1em;
 }
 
 .manga-card
 {
-    margin: 0 3em 7em 3em;
+    margin: 0 0 7em 0;
     position: relative;
     width: 15vw;
     height: 40vh;
@@ -121,7 +122,16 @@ footer
     height: 50%;
 }
 
-.manga-info{
+.manga-info
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 4em;
+}
+
+.manga-general
+{
     display: flex;
     justify-content: center;
 }
