@@ -102,7 +102,7 @@ CREATE TABLE Creer(
 CREATE TABLE MangaLectureEnCours(
    Id_Utilisateur BIGINT UNSIGNED,
    Id_Manga BIGINT UNSIGNED,
-   note INT,
+   note FLOAT,
    tomeEnCours INT,
    chapitreEnCours INT,
    PRIMARY KEY(Id_Utilisateur, Id_Manga),
@@ -121,7 +121,7 @@ CREATE TABLE Ami(
 CREATE TABLE MangaLectureFini(
    Id_Utilisateur BIGINT UNSIGNED,
    Id_Manga BIGINT UNSIGNED,
-   note INT,
+   note FLOAT,
    PRIMARY KEY(Id_Utilisateur, Id_Manga),
    FOREIGN KEY(Id_Utilisateur) REFERENCES Utilisateur(Id_Utilisateur),
    FOREIGN KEY(Id_Manga) REFERENCES Manga(Id_Manga)

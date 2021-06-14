@@ -16,7 +16,7 @@ class CreateMangaLectureFiniTable extends Migration
         Schema::create('MangaLectureFini', function (Blueprint $table) {
             $table->unsignedBigInteger('Id_Utilisateur');
             $table->unsignedBigInteger('Id_Manga')->index('Id_Manga');
-            $table->integer('note')->nullable();
+            $table->float('note')->nullable();
             $table->primary(['Id_Utilisateur', 'Id_Manga']);
         });
     }

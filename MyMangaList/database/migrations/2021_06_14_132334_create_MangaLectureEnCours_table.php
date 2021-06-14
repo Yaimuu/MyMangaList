@@ -16,7 +16,7 @@ class CreateMangaLectureEnCoursTable extends Migration
         Schema::create('MangaLectureEnCours', function (Blueprint $table) {
             $table->unsignedBigInteger('Id_Utilisateur');
             $table->unsignedBigInteger('Id_Manga')->index('Id_Manga');
-            $table->integer('note')->nullable();
+            $table->float('note')->nullable();
             $table->integer('tomeEnCours')->nullable();
             $table->integer('chapitreEnCours')->nullable();
             $table->primary(['Id_Utilisateur', 'Id_Manga']);
