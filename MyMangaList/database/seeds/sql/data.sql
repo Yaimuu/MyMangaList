@@ -37,10 +37,17 @@ INSERT INTO Manga VALUES(DEFAULT, 'Angelic Layer', true, 'https://cdn.myanimelis
 INSERT INTO Manga VALUES(DEFAULT, 'D.N.Angel', false, 'https://cdn.myanimelist.net/images/manga/2/145023.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru');
 
-INSERT INTO Tome VALUES (2, 1, 'Tome 1', 1, '1990-11-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
-INSERT INTO Tome VALUES (2, 2, 'Tome 2', 2, '1991-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
-INSERT INTO Tome VALUES (2, 3, 'Tome 3', 3, '1991-10-25', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
-INSERT INTO Tome VALUES (2, 4, 'Tome 4', 4, '1992-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
+-- Tomes Berserk
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 1', 1, '1990-11-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 2', 2, '1991-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 3', 3, '1991-10-25', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 4', 4, '1992-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
+
+-- Tomes Naruto
+INSERT INTO Tome VALUES(9,DEFAULT,'Tome 1', 1, '2000-03-03','https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/c5a3090c-4ca0-40a2-9102-e0ee0c6dac15.jpg.512.jpg');
+INSERT INTO Tome VALUES(9,DEFAULT,'Tome 2', 2, '2000-06-02','https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/e4da8120-c450-43b7-8125-9f1c6be2800c.jpg.512.jpg');
+INSERT INTO Tome VALUES(9,DEFAULT,'Tome 3', 3, '2000-08-04','https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/8137489b-5cf3-4883-b055-cddaa0f06788.jpg.512.jpg');
+INSERT INTO Tome VALUES(9,DEFAULT,'Tome 4', 4, '2000-10-04','https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/9a838405-c2e2-4c4a-a666-83f2193a9071.jpg.512.jpg');
 
 
 INSERT INTO Auteur VALUES (DEFAULT, 1);
