@@ -12,7 +12,7 @@ class DataSeeder extends Seeder
      */
     public function run()
     {
-        DB::unprepared(file_get_contents(base_path().'/database/seeds/data.sql'));
+        DB::unprepared(file_get_contents(base_path().'/database/seeds/sql/data.sql'));
     }
 
 }
