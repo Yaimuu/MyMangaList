@@ -66,4 +66,6 @@
         </footer>
 
     </body>
+
+    <script src="https://kit.fontawesome.com/5ea815c1d0.js"></script>
 </html>
