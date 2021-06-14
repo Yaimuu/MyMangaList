@@ -154,6 +154,12 @@ INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 2', 2, '2012-11-27', 'https://upload
 INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 3', 3, '2013-04-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/89b9c77d-0e9d-4438-a7e1-7f7e9c202756.png.512.jpg');
 INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 4', 4, '2013-10-26', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/89435919-e6d9-4a3c-b787-9bff308347d9.png.512.jpg');
 
+-- Tomes Fairy Tail (id=12)
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 1', 1, '2006-12-15', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/396f9cad-0035-420e-aa28-72183de1ebb5.jpg.512.jpg');
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 2', 2, '2007-01-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/fd7052cc-eb07-4069-aede-bf8afb2329b7.jpg.512.jpg');
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 3', 3, '2007-04-13', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/88cb9404-4f0f-4610-93b1-6b519f5b173a.jpg.512.jpg');
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 4', 4, '2007-05-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/ca98746e-2bb3-40f0-a8a8-d3d3b8234047.jpg.512.jpg');
+
 INSERT INTO Auteur VALUES (DEFAULT, 1);
 INSERT INTO Auteur VALUES (DEFAULT, 2);
 INSERT INTO Auteur VALUES (DEFAULT, 3);
