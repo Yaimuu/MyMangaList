@@ -8,19 +8,27 @@
 
 
     <section class="manga-info">
-        <div class="manga-card">
-            
-            <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
-            
-            <div class="title">
-                {{$manga->titre}}
+        <div class="manga-general">
+            <div class="manga-card" style="margin: 0 1em 0 0;">
+
+                <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
+
+                <div class="title">
+                    {{$manga->titre}}
+                </div>
+            </div>
+
+            <div class="card-content" >
+                <h2>Auteur</h2><h3> {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</h3>
+                <h2>Dessinateur</h2><h3> {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</h3>
             </div>
         </div>
 
-        <div class="mangas-container">
-            <p>Liste des tomes :</p>
+        <p style="font-size: 3em;">Tomes</p>
+
+        <div class="mangas-container" style="justify-content: center;">
             @foreach($tomes as $tome)
-            <div class="manga-card">
+            <div class="manga-card" style="margin: 1em; ">
                 <img src="{{$tome->image}}" alt="{{$tome->nom}}" />
                 <div class="title">
                     {{$tome->nom}}
@@ -29,12 +37,7 @@
             @endforeach
         </div>
 
-        <div class="card-content" >
 
-            <p>Auteur : {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</p>
-            <p>Dessinateur : {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</p>
-
-        </div>
     </section>
 
 @endsection
