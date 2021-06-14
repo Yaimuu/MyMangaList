@@ -20,3 +20,13 @@ Route::get('/', function () {
 Route::resource('mangas', MangaController::class);
 Route::patch('mangas', [MangaController::class, 'index'])->name('mangas');
 Route::resource('genres', GenreController::class);
+
+//Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
+//Route::post('login', 'Auth\LoginController@authenticate');
+//Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+//
+//Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+//Route::post('register', 'Auth\RegisterController@register');
+
+Auth::routes();
+Route::get('home', 'Auth\LoginController@home')->name('home');
