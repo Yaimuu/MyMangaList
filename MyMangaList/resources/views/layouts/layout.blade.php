@@ -22,7 +22,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">{{ Auth::user()->name }}</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
@@ -36,6 +36,11 @@
             <div class="links">
                 <a href="/">Accueil</a>
                 <a href="{{ route('mangas') }}">Mangas</a>
+                @guest
+
+                @else
+
+                @endguest
             </div>
 
         @yield('sidebar')
