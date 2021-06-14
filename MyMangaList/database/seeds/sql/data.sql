@@ -102,116 +102,25 @@ INSERT INTO MangaLectureFini (Id_Utilisateur, Id_Manga, note) SELECT 1, Id_Manga
 INSERT INTO Manga VALUES(DEFAULT, 'Bakuman.', true, 'https://cdn.myanimelist.net/images/manga/1/208974.jpg?s=8a17bc2d7d4a3edf7988c1e6e2933581'); 
 
 
-INSERT INTO Manga VALUES(DEFAULT, 'Monster', true, 'https://cdn.myanimelist.net/images/manga/3/54525.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Urasawa', 'Naoki'); 
 INSERT INTO Genre VALUES(DEFAULT, 'Mystery'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Berserk', false, 'https://cdn.myanimelist.net/images/manga/1/157897.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Miura', 'Kentarou'); 
-INSERT INTO Manga VALUES(DEFAULT, '20th Century Boys', true, 'https://cdn.myanimelist.net/images/manga/1/54437.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Urasawa', 'Naoki'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Yokohama Kaidashi Kikou', true, 'https://cdn.myanimelist.net/images/manga/1/171813.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Ashinano', 'Hitoshi'); 
 INSERT INTO Genre VALUES(DEFAULT, 'Drama'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Hajime no Ippo', false, 'https://cdn.myanimelist.net/images/manga/1/15282.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Morikawa', 'George'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Full Moon wo Sagashite', true, 'https://cdn.myanimelist.net/images/manga/3/175970.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Tanemura', 'Arina'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Tsubasa: RESERVoir CHRoNiCLE', true, 'https://cdn.myanimelist.net/images/manga/2/27076.jpg'); 
-INSERT INTO Manga VALUES(DEFAULT, 'xxxHOLiC', true, 'https://cdn.myanimelist.net/images/manga/3/217533.jpg'); 
 INSERT INTO Genre VALUES(DEFAULT, 'Comedy'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Naruto', true, 'https://cdn.myanimelist.net/images/manga/3/117681.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Kishimoto', 'Masashi'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Bleach', true, 'https://cdn.myanimelist.net/images/manga/2/180089.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Kubo', 'Tite'); 
-INSERT INTO Manga VALUES(DEFAULT, 'One Piece', false, 'https://cdn.myanimelist.net/images/manga/3/55539.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Oda', 'Eiichiro'); 
 INSERT INTO Genre VALUES(DEFAULT, 'Action'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Death Note', true, 'https://cdn.myanimelist.net/images/manga/2/54453.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Obata', 'Takeshi'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Kamichama Karin', true, 'https://cdn.myanimelist.net/images/manga/2/2074.jpg'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Kamikaze Kaitou Jeanne', true, 'https://cdn.myanimelist.net/images/manga/4/175801.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Tanemura', 'Arina'); 
 INSERT INTO Genre VALUES(DEFAULT, 'Adventure'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Slam Dunk', true, 'https://cdn.myanimelist.net/images/manga/2/157904.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Inoue', 'Takehiko'); 
-INSERT INTO Manga VALUES(DEFAULT, '17-sai: Hajimete no H', true, 'https://cdn.myanimelist.net/images/manga/3/4976.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Shinjou', 'Mayu'); 
-INSERT INTO Manga VALUES(DEFAULT, 'Angelic Layer', true, 'https://cdn.myanimelist.net/images/manga/3/179060.jpg'); 
-INSERT INTO Manga VALUES(DEFAULT, 'D.N.Angel', false, 'https://cdn.myanimelist.net/images/manga/2/145023.jpg'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru');
-
--- Tomes Shingeki no Kyojin (id=1)
-INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 1', 1, '2010-03-17', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/a6a8ae55-5e15-43b9-bfcc-cd398bd317cb.jpg.512.jpg');
-INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 2', 2, '2010-07-16', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/3f2b9c2d-242d-4022-aa86-1494921a4140.jpg.512.jpg');
-INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 3', 3, '2010-12-09', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/40e86dcb-c49f-441b-909d-53fa84917486.jpg.512.jpg');
-INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 4', 4, '2011-04-08', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/e5551db5-510d-4ec2-bdfb-4d57c8782519.jpg.512.jpg');
-
-
--- Tomes Berserk (id=2)
-INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 1', 1, '1990-11-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
-INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 2', 2, '1991-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
-INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 3', 3, '1991-10-25', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
-INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 4', 4, '1992-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
-
--- Tomes One Piece (id=3)
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 1', 1, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/3573d948-fe54-4b81-9293-c74f5bb34c91.jpg.512.jpg');
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 2', 2, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/673d3da4-4e17-44d5-8012-38bbf85b18a3.jpg.512.jpg');
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 3', 3, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/4f927923-09c8-47af-9109-38e7e759bc96.jpg.512.jpg');
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 4', 4, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/7c4368ba-5d67-4d36-b3d6-d904a57f268f.jpg.512.jpg');
-
--- Tomes Tokyo Ghoul (id=4)
-INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 1', 1, '2012-02-17', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/040e8ae9-4ddd-49d2-8986-56782b391714.jpg.512.jpg');
-INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 2', 2, '2012-03-19', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/d1f5b63b-87c2-4a05-a018-fd380a623b86.jpg.512.jpg');
-INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 3', 3, '2012-06-19', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/ef89128c-0b19-4c7a-996d-50d22832f39e.jpg.512.jpg');
-INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 4', 4, '2012-09-19', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/bdab71f2-1f1d-46ab-969f-f4792540c561.jpg.512.jpg');
-
--- Tomes Naruto (id=5)
-INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 1', 1, '2000-03-03', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/c5a3090c-4ca0-40a2-9102-e0ee0c6dac15.jpg.512.jpg');
-INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 2', 2, '2000-06-02', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/e4da8120-c450-43b7-8125-9f1c6be2800c.jpg.512.jpg');
-INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 3', 3, '2000-08-04', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/8137489b-5cf3-4883-b055-cddaa0f06788.jpg.512.jpg');
-INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 4', 4, '2000-10-04', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/9a838405-c2e2-4c4a-a666-83f2193a9071.jpg.512.jpg');
-
--- Tomes One Punch-Man (id=6)
-INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 1', 1, '2012-12-04', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/dfc14954-f855-47a3-9401-4abe2a78621a.jpg.512.jpg');
-INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 2', 2, '2012-12-04', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/f5b9fa82-b9cc-43c9-b206-d3cfcbc447ad.jpg.512.jpg');
-INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 3', 3, '2013-04-04', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/5e85cbd3-efcb-4954-8146-785ea6466dc5.jpg.512.jpg');
-INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 4', 4, '2013-08-02', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/18d11783-04c7-4e44-a949-1d5c7ac2838f.jpg.512.jpg');
-
--- Tomes Boku no Hero Academia (id=7)
-INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 1', 1, '2014-11-04', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/c7a7101a-8e22-442b-a1db-55ba9ef5b1ab.jpg.512.jpg');
-INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 2', 2, '2015-01-05', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/746a215e-3a1e-4bde-a86c-1bbfcdac37aa.png.512.jpg');
-INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 3', 3, '2015-04-04', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/43d1808b-4b15-4ac6-985f-ea6a1af67a0c.png.512.jpg');
-INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 4', 4, '2015-06-04', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/f915b409-c2a5-475c-92b4-71d0720ec52b.jpg.512.jpg');
-
--- Tomes Death Note (id=8)
-INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 1', 1, '2004-04-02', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/8f45c074-5512-4679-a14b-cac837c87171.jpg.512.jpg');
-INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 2', 2, '2004-07-02', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/14f108ed-7398-4396-a026-7a329c04fc28.jpg.512.jpg');
-INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 3', 3, '2004-09-03', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/a2293788-279e-4849-ab75-dc324ee36161.jpg.512.jpg');
-INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 4', 4, '2004-11-04', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/36a4d59f-042e-48d0-bdd3-77d6e0a4040e.jpg.512.jpg');
-
--- Tomes Bleach (id=9)
-INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 1', 1, '2002-01-05', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/6e94210b-f378-4146-82d0-66d5c04ca6b5.jpg.512.jpg');
-INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 2', 2, '2002-03-04', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/885eb2b7-4b0f-4f84-84ec-6983a1b29dae.jpg.512.jpg');
-INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 3', 3, '2002-06-04', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/6643c901-43b8-4b79-9fff-bcfd2d284a13.jpg.512.jpg');
-INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 4', 4, '2002-09-04', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/6fbf0a4a-10b8-4314-a3cc-f9af88e815eb.jpg.512.jpg');
-
--- Tomes Oyasumi Punpun (id=10)
-INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 1', 1, '2007-08-03', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/0295431e-ccb9-4599-900f-0a1bc7380561.jpg.512.jpg');
-INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 2', 2, '2007-12-05', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/8bdd7847-b634-453e-93ab-654cf1612e8d.jpg.512.jpg');
-INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 3', 3, '2008-06-05', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/1067c320-812c-4d0d-8301-740429b332f5.jpg.512.jpg');
-INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 4', 4, '2009-01-30', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/6d31fe58-d8f9-437f-8739-cc0f00cffa80.jpg.512.jpg');
-
--- Tomes Horimiya (id=11)
-INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 1', 1, '2012-03-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/888ac8b4-0b0f-45e8-8592-fe6681e14f53.png.512.jpg');
-INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 2', 2, '2012-11-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/ccb1cbe5-81e8-4630-b378-593a47362146.png.512.jpg');
-INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 3', 3, '2013-04-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/89b9c77d-0e9d-4438-a7e1-7f7e9c202756.png.512.jpg');
-INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 4', 4, '2013-10-26', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/89435919-e6d9-4a3c-b787-9bff308347d9.png.512.jpg');
-
--- Tomes Fairy Tail (id=12)
-INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 1', 1, '2006-12-15', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/396f9cad-0035-420e-aa28-72183de1ebb5.jpg.512.jpg');
-INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 2', 2, '2007-01-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/fd7052cc-eb07-4069-aede-bf8afb2329b7.jpg.512.jpg');
-INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 3', 3, '2007-04-13', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/88cb9404-4f0f-4610-93b1-6b519f5b173a.jpg.512.jpg');
-INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 4', 4, '2007-05-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/ca98746e-2bb3-40f0-a8a8-d3d3b8234047.jpg.512.jpg');
 
 INSERT INTO Auteur VALUES (DEFAULT, 1);
 INSERT INTO Auteur VALUES (DEFAULT, 2);
@@ -285,3 +194,76 @@ INSERT INTO GenreManga VALUES(16,3);
 INSERT INTO GenreManga VALUES(17,4);
 INSERT INTO GenreManga VALUES(18,2);
 
+
+-- Tomes Shingeki no Kyojin (id=1)
+INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 1', 1, '2010-03-17', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/a6a8ae55-5e15-43b9-bfcc-cd398bd317cb.jpg.512.jpg');
+INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 2', 2, '2010-07-16', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/3f2b9c2d-242d-4022-aa86-1494921a4140.jpg.512.jpg');
+INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 3', 3, '2010-12-09', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/40e86dcb-c49f-441b-909d-53fa84917486.jpg.512.jpg');
+INSERT INTO Tome VALUES (1, DEFAULT, 'Tome 4', 4, '2011-04-08', 'https://uploads.mangadex.org/covers/304ceac3-8cdb-4fe7-acf7-2b6ff7a60613/e5551db5-510d-4ec2-bdfb-4d57c8782519.jpg.512.jpg');
+
+
+-- Tomes Berserk (id=2)
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 1', 1, '1990-11-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/0df7ec20-26e9-4703-b3db-d3e664433825.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 2', 2, '1991-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/fbfea921-434c-479b-bcc5-5c7c0b72cbbc.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 3', 3, '1991-10-25', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/bedb2395-8995-46c7-8fce-70f89dc24b79.jpg.512.jpg');
+INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 4', 4, '1992-02-26', 'https://uploads.mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/8aee7c35-b81a-4384-bb6a-a4b4890881e1.jpg.512.jpg');
+
+-- Tomes One Piece (id=3)
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 1', 1, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/3573d948-fe54-4b81-9293-c74f5bb34c91.jpg.512.jpg');
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 2', 2, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/673d3da4-4e17-44d5-8012-38bbf85b18a3.jpg.512.jpg');
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 3', 3, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/4f927923-09c8-47af-9109-38e7e759bc96.jpg.512.jpg');
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 4', 4, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/7c4368ba-5d67-4d36-b3d6-d904a57f268f.jpg.512.jpg');
+
+-- Tomes Tokyo Ghoul (id=4)
+INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 1', 1, '2012-02-17', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/040e8ae9-4ddd-49d2-8986-56782b391714.jpg.512.jpg');
+INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 2', 2, '2012-03-19', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/d1f5b63b-87c2-4a05-a018-fd380a623b86.jpg.512.jpg');
+INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 3', 3, '2012-06-19', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/ef89128c-0b19-4c7a-996d-50d22832f39e.jpg.512.jpg');
+INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 4', 4, '2012-09-19', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/bdab71f2-1f1d-46ab-969f-f4792540c561.jpg.512.jpg');
+
+-- Tomes Naruto (id=5)
+INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 1', 1, '2000-03-03', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/c5a3090c-4ca0-40a2-9102-e0ee0c6dac15.jpg.512.jpg');
+INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 2', 2, '2000-06-02', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/e4da8120-c450-43b7-8125-9f1c6be2800c.jpg.512.jpg');
+INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 3', 3, '2000-08-04', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/8137489b-5cf3-4883-b055-cddaa0f06788.jpg.512.jpg');
+INSERT INTO Tome VALUES (5, DEFAULT, 'Tome 4', 4, '2000-10-04', 'https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/9a838405-c2e2-4c4a-a666-83f2193a9071.jpg.512.jpg');
+
+-- Tomes One Punch-Man (id=6)
+INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 1', 1, '2012-12-04', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/dfc14954-f855-47a3-9401-4abe2a78621a.jpg.512.jpg');
+INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 2', 2, '2012-12-04', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/f5b9fa82-b9cc-43c9-b206-d3cfcbc447ad.jpg.512.jpg');
+INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 3', 3, '2013-04-04', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/5e85cbd3-efcb-4954-8146-785ea6466dc5.jpg.512.jpg');
+INSERT INTO Tome VALUES (6, DEFAULT, 'Tome 4', 4, '2013-08-02', 'https://uploads.mangadex.org/covers/d8a959f7-648e-4c8d-8f23-f1f3f8e129f3/18d11783-04c7-4e44-a949-1d5c7ac2838f.jpg.512.jpg');
+
+-- Tomes Boku no Hero Academia (id=7)
+INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 1', 1, '2014-11-04', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/c7a7101a-8e22-442b-a1db-55ba9ef5b1ab.jpg.512.jpg');
+INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 2', 2, '2015-01-05', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/746a215e-3a1e-4bde-a86c-1bbfcdac37aa.png.512.jpg');
+INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 3', 3, '2015-04-04', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/43d1808b-4b15-4ac6-985f-ea6a1af67a0c.png.512.jpg');
+INSERT INTO Tome VALUES (7, DEFAULT, 'Tome 4', 4, '2015-06-04', 'https://uploads.mangadex.org/covers/4f3bcae4-2d96-4c9d-932c-90181d9c873e/f915b409-c2a5-475c-92b4-71d0720ec52b.jpg.512.jpg');
+
+-- Tomes Death Note (id=8)
+INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 1', 1, '2004-04-02', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/8f45c074-5512-4679-a14b-cac837c87171.jpg.512.jpg');
+INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 2', 2, '2004-07-02', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/14f108ed-7398-4396-a026-7a329c04fc28.jpg.512.jpg');
+INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 3', 3, '2004-09-03', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/a2293788-279e-4849-ab75-dc324ee36161.jpg.512.jpg');
+INSERT INTO Tome VALUES (8, DEFAULT, 'Tome 4', 4, '2004-11-04', 'https://uploads.mangadex.org/covers/75ee72ab-c6bf-4b87-badd-de839156934c/36a4d59f-042e-48d0-bdd3-77d6e0a4040e.jpg.512.jpg');
+
+-- Tomes Bleach (id=9)
+INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 1', 1, '2002-01-05', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/6e94210b-f378-4146-82d0-66d5c04ca6b5.jpg.512.jpg');
+INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 2', 2, '2002-03-04', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/885eb2b7-4b0f-4f84-84ec-6983a1b29dae.jpg.512.jpg');
+INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 3', 3, '2002-06-04', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/6643c901-43b8-4b79-9fff-bcfd2d284a13.jpg.512.jpg');
+INSERT INTO Tome VALUES (9, DEFAULT, 'Tome 4', 4, '2002-09-04', 'https://uploads.mangadex.org/covers/239d6260-d71f-43b0-afff-074e3619e3de/6fbf0a4a-10b8-4314-a3cc-f9af88e815eb.jpg.512.jpg');
+
+-- Tomes Oyasumi Punpun (id=10)
+INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 1', 1, '2007-08-03', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/0295431e-ccb9-4599-900f-0a1bc7380561.jpg.512.jpg');
+INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 2', 2, '2007-12-05', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/8bdd7847-b634-453e-93ab-654cf1612e8d.jpg.512.jpg');
+INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 3', 3, '2008-06-05', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/1067c320-812c-4d0d-8301-740429b332f5.jpg.512.jpg');
+INSERT INTO Tome VALUES (10, DEFAULT, 'Tome 4', 4, '2009-01-30', 'https://uploads.mangadex.org/covers/4301d363-ee02-43f4-ae24-4cbf29a74830/6d31fe58-d8f9-437f-8739-cc0f00cffa80.jpg.512.jpg');
+
+-- Tomes Horimiya (id=11)
+INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 1', 1, '2012-03-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/888ac8b4-0b0f-45e8-8592-fe6681e14f53.png.512.jpg');
+INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 2', 2, '2012-11-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/ccb1cbe5-81e8-4630-b378-593a47362146.png.512.jpg');
+INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 3', 3, '2013-04-27', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/89b9c77d-0e9d-4438-a7e1-7f7e9c202756.png.512.jpg');
+INSERT INTO Tome VALUES (11, DEFAULT, 'Tome 4', 4, '2013-10-26', 'https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/89435919-e6d9-4a3c-b787-9bff308347d9.png.512.jpg');
+
+-- Tomes Fairy Tail (id=12)
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 1', 1, '2006-12-15', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/396f9cad-0035-420e-aa28-72183de1ebb5.jpg.512.jpg');
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 2', 2, '2007-01-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/fd7052cc-eb07-4069-aede-bf8afb2329b7.jpg.512.jpg');
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 3', 3, '2007-04-13', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/88cb9404-4f0f-4610-93b1-6b519f5b173a.jpg.512.jpg');
+INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 4', 4, '2007-05-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/ca98746e-2bb3-40f0-a8a8-d3d3b8234047.jpg.512.jpg');
