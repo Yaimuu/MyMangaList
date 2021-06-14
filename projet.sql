@@ -3,10 +3,10 @@ CREATE TABLE Utilisateur(
    pseudo VARCHAR(50),
    mail VARCHAR(50),
    password VARCHAR(50),
-   imageProfile VARCHAR(300)
+   imageProfile VARCHAR(300),
+   PRIMARY KEY(Id_Utilisateur)
 );
 
-ALTER TABLE Utilisateur ADD PRIMARY KEY(Id_Utilisateur);
 
 CREATE TABLE Manga(
    Id_Manga SERIAL,
