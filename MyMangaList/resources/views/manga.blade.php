@@ -38,8 +38,6 @@
                 <a href="#" class="fas fa-star s5"></a>
             </div>
 
-
-        
         </div>
 
         <p style="font-size: 3em;">Tomes</p>
