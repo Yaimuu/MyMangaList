@@ -1,10 +1,13 @@
-CREATE TABLE Utilisateur(
-   Id_Utilisateur SERIAL,
-   pseudo VARCHAR(50),
-   mail VARCHAR(50),
-   password VARCHAR(50),
-   imageProfile VARCHAR(300),
-   PRIMARY KEY(Id_Utilisateur)
+CREATE TABLE `Utilisateur` (
+  `Id_Utilisateur` SERIAL,
+  `name` varchar(50) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `imageProfile` varchar(300) DEFAULT NULL,
+  `remember_token` varchar(100) DEFAULT NULL,
+  `email_verified_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 

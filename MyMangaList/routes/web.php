@@ -29,4 +29,5 @@ Route::resource('genres', GenreController::class);
 //Route::post('register', 'Auth\RegisterController@register');
 
 Auth::routes();
-Route::get('home', 'Auth\LoginController@home')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
+

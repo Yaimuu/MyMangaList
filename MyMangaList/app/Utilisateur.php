@@ -7,7 +7,7 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class Utilisateur extends Model
+class Utilisateur extends Authenticatable
 {
     use Notifiable;
 
@@ -17,7 +17,7 @@ class Utilisateur extends Model
      * @var array
      */
     protected $fillable = [
-        'pseudo', 'mail', 'password',
+        'name', 'email', 'password',
     ];
 
     /**
@@ -39,4 +39,5 @@ class Utilisateur extends Model
     ];
 
     protected $table = 'Utilisateur';
+    protected $primaryKey = 'Id_Utilisateur';
 }
