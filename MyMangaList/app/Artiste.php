@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Artiste extends Model
 {
-    protected $table = 'Artiste'; 
+    protected $table = 'Artiste';
 }

@@ -21,6 +21,8 @@ Route::resource('mangas', MangaController::class);
 Route::patch('mangas', [MangaController::class, 'index'])->name('mangas');
 Route::resource('genres', GenreController::class);
 
+Route::get('rate', 'MangaController@rate')->name('rate');
+
 //Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 //Route::post('login', 'Auth\LoginController@authenticate');
 //Route::get('logout', 'Auth\LoginController@logout')->name('logout');
@@ -32,3 +34,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('addFriend', 'UtilisateurController@addFriend')->name('addFriend');
+

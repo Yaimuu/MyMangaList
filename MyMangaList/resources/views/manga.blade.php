@@ -31,11 +31,21 @@
             </div>
 
             <div class="star-wrapper">
-                <a href="#" class="fas fa-star s1"></a>
-                <a href="#" class="fas fa-star s2"></a>
-                <a href="#" class="fas fa-star s3"></a>
-                <a href="#" class="fas fa-star s4"></a>
-                <a href="#" class="fas fa-star s5"></a>
+{{--                {{ $grade = Auth::user()->allNotes()->where('Id_Manga', '=', $manga->Id_Manga)->get()->first() }}--}}
+                @for ($i = 1; $i <= 5; $i++)
+                    @guest
+                    @else
+                        @if( $grade == null )
+                            <a href="{{ route('rate', ['grade'=>6-$i, 'idManga'=>$manga->Id_Manga]) }}" class="fas fa-star s{{$i}}"></a>
+                        @elseif($grade->note >= 6-$i)
+                            <a href="{{ route('rate', ['grade'=>6-$i, 'idManga'=>$manga->Id_Manga]) }}" class="fas fa-star s{{$i}}" style="color: gold;"></a>
+                        @else
+                            <a href="{{ route('rate', ['grade'=>6-$i, 'idManga'=>$manga->Id_Manga]) }}" class="fas fa-star s{{$i}} "></a>
+                        @endif
+
+                    @endguest
+
+                @endfor
             </div>
 
         </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\MangaLectureFini;
 use Illuminate\Http\Request;
 use App\Manga;
 use App\Tome;
@@ -11,6 +12,7 @@ use App\Dessinateur;
 use App\Creer;
 use Illuminate\Support\Facades\DB;
 use stdClass;
+use Illuminate\Support\Facades\Auth;
 
 class MangaController extends Controller
 {
@@ -50,6 +52,33 @@ class MangaController extends Controller
         $artiste_auteur = Artiste::where('Id_Artiste', $auteur->Id_Artiste)->first();
         $artiste_dessinateur = Artiste::where('Id_Artiste', $dessinateur->Id_Artiste)->first();
 
-        return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur'));
+        $grade = Auth::user()->allNotes()->where('Id_Manga', '=', $manga->Id_Manga)->get()->first();
+
+        return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur', 'grade'));
+    }
+
+    public function rate(Request $request)
+    {
+        $mangaFini = Auth::user()->allNotes()->where('Id_Manga', '=', $request["idManga"])->get();
+
+        $manga = Manga::find($request["idManga"]);
+
+        if($mangaFini->isEmpty())
+        {
+            $mangaNote = new MangaLectureFini();
+            $mangaNote->Id_Utilisateur = Auth::user()->Id_Utilisateur;
+            $mangaNote->Id_Manga = $request["idManga"];
+            $mangaNote->note = $request["grade"];
+            $mangaNote->save();
+        }
+        else
+        {
+            Auth::user()
+                ->allNotes()
+                ->where('Id_Manga', '=', $request["idManga"])
+                ->update(['note' => $request["grade"]]);
+        }
+
+        return $this->show($manga);
     }
 }

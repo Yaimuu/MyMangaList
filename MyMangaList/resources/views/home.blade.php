@@ -1,5 +1,5 @@
 @extends('layouts.app')
-{{--{{dd(Auth::user())}}--}}
+
 @section('content')
 <div class="container ">
     <div class="row justify-content-center">
@@ -23,10 +23,11 @@
                         <input list="user" id="users-list" name="user" />
                         <datalist id="user">
                             @foreach(\App\Utilisateur::all() as $user)
-                                <option id="{{$user->Id_Utilisateur}}" value="{{$user->name}}">{{$user->name}}</option>
+{{--                                <option id="{{$user->Id_Utilisateur}}" name="{{$user->Id_Utilisateur}}" value="{{$user->name}}">{{$user->name}}</option>--}}
                                 @if($user->name != Auth::user()->name)
 {{--                                    <option value="{{$user->Id_Utilisateur}}">{{$user->name}}</option>--}}
-                                    <option value="{{$user->name}}">{{$user->Id_Utilisateur}}</option>
+{{--                                    <option value="{{$user->name}}">{{$user->Id_Utilisateur}}</option>--}}
+                                    <option id="{{$user->Id_Utilisateur}}" name="{{$user->Id_Utilisateur}}" value="{{$user->name}}">{{$user->name}}</option>
                                 @endif
                             @endforeach
                         </datalist>

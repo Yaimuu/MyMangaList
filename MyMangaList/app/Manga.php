@@ -8,7 +8,11 @@ class Manga extends Model
 {
     protected $fillable=["*"];
 
-    protected $table = 'Manga'; 
+    protected $table = 'Manga';
     protected $primaryKey = 'Id_Manga';
 
+    public function note()
+    {
+        return $this->belongsTo(Utilisateur::class, Manga::class);
+    }
 }

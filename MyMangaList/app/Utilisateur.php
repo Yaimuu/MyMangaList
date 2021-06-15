@@ -40,4 +40,9 @@ class Utilisateur extends Authenticatable
 
     protected $table = 'Utilisateur';
     protected $primaryKey = 'Id_Utilisateur';
+
+    public function allNotes()
+    {
+        return $this->hasMany(MangaLectureFini::class, 'Id_Utilisateur');
+    }
 }
