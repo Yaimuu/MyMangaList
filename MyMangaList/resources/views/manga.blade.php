@@ -31,7 +31,7 @@
             </div>
 
             <div class="star-wrapper">
-{{--                {{ $grade = Auth::user()->allNotes()->where('Id_Manga', '=', $manga->Id_Manga)->get()->first() }}--}}
+
                 @for ($i = 1; $i <= 5; $i++)
                     @guest
                     @else
@@ -42,9 +42,7 @@
                         @else
                             <a href="{{ route('rate', ['grade'=>6-$i, 'idManga'=>$manga->Id_Manga]) }}" class="fas fa-star s{{$i}} "></a>
                         @endif
-
                     @endguest
-
                 @endfor
             </div>
 
