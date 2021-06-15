@@ -177,3 +177,46 @@ footer
 .s5:hover ~ a {
     color: gold;
 }
+
+/*****************
+    - Profile -
+*****************/
+.profile-image
+{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+}
+.hover-image
+{
+    width: 100%;
+    height: 100%;
+    background: #50508000;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.hover-image:after
+{
+    transition: 0.5s;
+    content: "Changer l'image";
+    opacity: 0;
+    padding-left: 1em;
+}
+.hover-image:hover:after
+{
+    opacity: 1;
+}
+.profile-image:hover > .hover-image
+{
+    background: #20204075;
+}
+.profile-image:hover
+{
+
+}

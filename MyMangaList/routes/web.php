@@ -31,3 +31,4 @@ Route::resource('genres', GenreController::class);
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::post('addFriend', 'UtilisateurController@addFriend')->name('addFriend');

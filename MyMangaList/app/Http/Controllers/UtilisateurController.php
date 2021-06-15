@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class UtilisateurController extends Controller
 {
-    //
+    public function addFriend(Request $request)
+    {
+        dd($request);
+    }
 }
