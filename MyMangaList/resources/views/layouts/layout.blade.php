@@ -47,9 +47,12 @@
             @endif
 
             <div class="links">
+
                 <a href="/">Accueil</a>
+
                 <a href="{{ route('mangas') }}">Mangas</a>
-                <div class="btn-group dropdown" >
+
+                <span class="btn-group dropdown" >
                     <button class="btn btn-secondary dropdown-toggle" style="background-color: #1E1E2A; border-color:  #1E1E2A;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                       Genres
                     </button>
@@ -59,7 +62,7 @@
                             <li><a href="{{ route('genres.show', $genre->Id_Genre) }}" class="dropdown-item">{{$genre->libelle}}</a></li>
                         @endforeach
                     </ul>
-                </div>
+                </span>
 
                 @guest
 
