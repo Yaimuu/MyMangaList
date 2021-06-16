@@ -223,8 +223,8 @@ footer
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    left: 10vw;
-    top: 10vh;
+    left: 5vw;
+    top: 1.5vh;
 }
 .profile-image > img
 {
@@ -248,7 +248,6 @@ footer
     transition: 0.5s;
     content: "Changer l'image";
     opacity: 0;
-    padding-left: 1em;
 }
 .hover-image:hover:after
 {
