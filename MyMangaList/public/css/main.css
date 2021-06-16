@@ -23,7 +23,7 @@ html, body {
 
 .banner
 {
-    background: url("/images/banner/Banner.jpg");
+    background: url("../images/banner/Banner.jpg");
     position: fixed;
     width: 100%;
     height: 100%;
