@@ -57,6 +57,9 @@
                 <div class="title">
                     {{$tome->nom}}
                 </div>
+                <div class="date">
+                    {{$tome->dateParution}}
+                </div>
             </div>
             @endforeach
         </div>
