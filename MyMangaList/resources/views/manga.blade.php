@@ -71,12 +71,10 @@
                     <div class="title">
                         {{$tome->nom}}
                     </div>
+                    <div class="date">
+                        {{$tome->dateParution}}
+                    </div>
                 </div>
-                <div class="date">
-                    {{$tome->dateParution}}
-                </div>
-            </div>
-            @endforeach
                 @endforeach
             @else
                 <h3 class="text-danger">Pas de Tomes pour ce manga !</h3>
