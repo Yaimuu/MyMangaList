@@ -47,9 +47,9 @@
             <div class="profile-image">
                 <div class="hover-image"></div>
                 @if (Auth::user()->imageProfile != null)
-                    <img src="images/{{ Auth::user()->imageProfile }}" class=" bg-light" width="300" height="300" />
+                    <img src="images/{{ Auth::user()->imageProfile }}" class=" bg-light" width="130" height="130" />
                 @else
-                    <img src="images/default.png" class="rounded-circle bg-light" width="300" height="300"/>
+                    <img src="images/default.png" class="rounded-circle bg-light" width="130" height="130"/>
                 @endif
             </div>
 
