@@ -181,9 +181,9 @@ INSERT INTO Tome VALUES (2, DEFAULT, 'Tome 4', 4, '1992-02-26', 'https://uploads
 
 -- Tomes One Piece (id=3)
 INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 1', 1, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/3573d948-fe54-4b81-9293-c74f5bb34c91.jpg.512.jpg');
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 2', 2, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/673d3da4-4e17-44d5-8012-38bbf85b18a3.jpg.512.jpg');
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 3', 3, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/4f927923-09c8-47af-9109-38e7e759bc96.jpg.512.jpg');
-INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 4', 4, '1997-12-24', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/7c4368ba-5d67-4d36-b3d6-d904a57f268f.jpg.512.jpg');
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 2', 2, '1998-04-03', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/673d3da4-4e17-44d5-8012-38bbf85b18a3.jpg.512.jpg');
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 3', 3, '1998-06-04', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/4f927923-09c8-47af-9109-38e7e759bc96.jpg.512.jpg');
+INSERT INTO Tome VALUES (3, DEFAULT, 'Tome 4', 4, '1998-08-04', 'https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/7c4368ba-5d67-4d36-b3d6-d904a57f268f.jpg.512.jpg');
 
 -- Tomes Tokyo Ghoul (id=4)
 INSERT INTO Tome VALUES (4, DEFAULT, 'Tome 1', 1, '2012-02-17', 'https://uploads.mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/040e8ae9-4ddd-49d2-8986-56782b391714.jpg.512.jpg');
