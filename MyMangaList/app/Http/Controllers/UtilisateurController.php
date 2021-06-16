@@ -38,6 +38,7 @@ class UtilisateurController extends Controller
 
     public function addFriend(Request $request)
     {
+        //dd($request["id"]);
         $ami = Auth::user()
             ->allFriends()
             ->where('Ami.Id_Utilisateur_1', '=', $request["id"])
