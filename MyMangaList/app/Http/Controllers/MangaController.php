@@ -58,7 +58,8 @@ class MangaController extends Controller
             $grade = Auth::user()->allNotes()->where('Id_Manga', '=', $manga->Id_Manga)->get()->first();
 
         $mangasEnCours = MangaLectureEnCours::all();
-        $mangasFini = MangaLectureFini::select(DB::raw('avg(score) as moyenne'))->get(); 
+        $mangasFini = MangaLectureFini::avg('note'); 
+        dd($mangasFini);
 
 
         return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur', 'grade'));
