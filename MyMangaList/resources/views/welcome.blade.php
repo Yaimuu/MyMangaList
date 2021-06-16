@@ -27,8 +27,6 @@
                             Notre site est une maquette s'inspirant du célèbre site
                             <a href="https://myanimelist.net/">My Anime List</a>
                         </p>
-
-
                     </div>
                 </div>
             </div>
