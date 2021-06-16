@@ -50,4 +50,11 @@ class UtilisateurController extends Controller
 
         return redirect('/amis');
     }
+
+    public function showMangasFini(Request $request)
+    {
+        $mangasFini = Auth::user()->allNotes()->get();
+
+        return view("mangasFini", compact("mangasFini"));
+    }
 }

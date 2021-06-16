@@ -16,17 +16,32 @@
 
     <section class="manga-info">
         <div class="manga-general">
+
             <div class="manga-card" style="margin: 0 1em 0 0;">
                 <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
 
                 <div class="title">
-                    {{$manga->titre}}
+                    <p>{{$manga->titre}}</p>
+
+                    <a href="{{ route('fini', ['idManga' => $manga->Id_Manga]) }}" class="btn-manga-fini">
+                        Fini
+                    </a>
                 </div>
             </div>
 
             <div class="card-content" >
+                @if($artiste_auteur != null)
                 <h2>Auteur</h2><h3> {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</h3>
-                <h2>Dessinateur</h2><h3> {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</h3>
+                @else
+                    <h2>Auteur</h2><h3 class="text-danger"> Auteur inconnu </h3>
+                @endif
+
+                @if($artiste_auteur != null)
+                    <h2>Dessinateur</h2><h3> {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</h3>
+                @else
+                    <h2>Dessinateur</h2><h3 class="text-danger"> Dessinateur inconnu </h3>
+                @endif
+
             </div>
 
             <div class="star-wrapper">
@@ -45,19 +60,25 @@
                 @endfor
             </div>
 
+
+
         </div>
 
         <p style="font-size: 3em;">Tomes</p>
 
         <div class="mangas-container" style="justify-content: center;">
-            @foreach($tomes as $tome)
-            <div class="manga-card" style="margin: 1em; ">
-                <img src="{{$tome->image}}" alt="{{$tome->nom}}" />
-                <div class="title">
-                    {{$tome->nom}}
+            @if($tomes != null)
+                @foreach($tomes as $tome)
+                <div class="manga-card" style="margin: 1em; ">
+                    <img src="{{$tome->image}}" alt="{{$tome->nom}}" />
+                    <div class="title">
+                        {{$tome->nom}}
+                    </div>
                 </div>
-            </div>
-            @endforeach
+                @endforeach
+            @else
+                <h3 class="text-danger">Pas de Tomes pour ce manga !</h3>
+            @endif
         </div>
     </section>
 
