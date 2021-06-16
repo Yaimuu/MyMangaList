@@ -267,3 +267,33 @@ INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 1', 1, '2006-12-15', 'https://upload
 INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 2', 2, '2007-01-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/fd7052cc-eb07-4069-aede-bf8afb2329b7.jpg.512.jpg');
 INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 3', 3, '2007-04-13', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/88cb9404-4f0f-4610-93b1-6b519f5b173a.jpg.512.jpg');
 INSERT INTO Tome VALUES (12, DEFAULT, 'Tome 4', 4, '2007-05-17', 'https://uploads.mangadex.org/covers/227e3f72-863f-46f9-bafe-c43104ca29ee/ca98746e-2bb3-40f0-a8a8-d3d3b8234047.jpg.512.jpg');
+
+-- Tomes Fullmetal Alchemist (id=13)
+INSERT INTO Tome VALUES (13, DEFAULT, 'Tome 1', 1, '2002-01-01', 'https://uploads.mangadex.org/covers/dd8a907a-3850-4f95-ba03-ba201a8399e3/a9cd0207-1b86-4738-a2b5-3575c32d5315.jpg.512.jpg');
+
+-- Tomes Solo Leveling (id=14)
+INSERT INTO Tome VALUES (14, DEFAULT, 'Tome 1', 1, '2019-09-26', 'https://uploads.mangadex.org/covers/32d76d19-8a05-4db0-9fc2-e0b0648fe9d0/20952a33-eb69-42e7-8719-af9a37828281.jpg.512.jpg');
+
+-- Tomes Yakusoku no Neverland (id=15)
+INSERT INTO Tome VALUES (15, DEFAULT, 'Tome 1', 1, '2016-12-02', 'https://uploads.mangadex.org/covers/46e9cae5-4407-4576-9b9e-4c517ae9298e/97b244ef-5179-4e21-bbba-099c5f129bda.jpg.512.jpg');
+
+-- Tomes Kimetsu no Yaiba (id=16)
+INSERT INTO Tome VALUES (16, DEFAULT, 'Tome 1', 1, '2016-06-03', 'https://uploads.mangadex.org/covers/789642f8-ca89-4e4e-8f7b-eee4d17ea08b/6fa2282f-282b-41cf-8ab7-fbdbeb822bd5.jpg.512.jpg');
+
+-- Tomes Koe no Katachi (id=17)
+INSERT INTO Tome VALUES (17, DEFAULT, 'Tome 1', 1, '2013-11-15', 'https://uploads.mangadex.org/covers/4bde51e5-e420-45a4-98e9-7405bf2d59ff/456391d7-33c1-4b0e-bace-3fa3b89d29f9.jpg.512.jpg');
+
+-- Tomes Tokyo Ghoul:re (id=18)
+INSERT INTO Tome VALUES (18, DEFAULT, 'Tome 1', 1, '2014-12-19', 'https://uploads.mangadex.org/covers/59f47645-66a9-443e-8228-788313c3ae3c/d335cd7f-00ff-4109-8d34-042822155d94.jpg.512.jpg');
+
+-- Tomes Chainsaw Man (id=19)
+INSERT INTO Tome VALUES (19, DEFAULT, 'Tome 1', 1, '2019-03-04', 'https://uploads.mangadex.org/covers/a77742b1-befd-49a4-bff5-1ad4e6b0ef7b/59ade418-3590-4d7b-91b0-24c8feaa845f.png.512.jpg');
+
+-- Tomes Vagabond (id=20)
+INSERT INTO Tome VALUES (20, DEFAULT, 'Tome 1', 1, '1999-03-23', 'https://uploads.mangadex.org/covers/d1a9fdeb-f713-407f-960c-8326b586e6fd/dcfe20c2-fdf6-4594-9621-59a43e4b5a0e.jpg.512.jpg');
+
+-- Tomes Hunter x Hunter (id=21)
+INSERT INTO Tome VALUES (21, DEFAULT, 'Tome 1', 1, '1998-06-04', 'https://uploads.mangadex.org/covers/db692d58-4b13-4174-ae8c-30c515c0689c/aa112927-f1e5-4fe4-a4db-7fd4a1536e3c.jpg.512.jpg');
+
+-- Tomes Vinland Saga (id=22)
+INSERT INTO Tome VALUES (22, DEFAULT, 'Tome 1', 1, '2006-06-23', 'https://uploads.mangadex.org/covers/5d1fc77e-706a-4fc5-bea8-486c9be0145d/1e1daf8f-f208-486d-88b9-c96a009d9f91.jpg.512.jpg');
