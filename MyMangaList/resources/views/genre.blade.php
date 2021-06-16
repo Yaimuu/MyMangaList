@@ -1,11 +1,9 @@
 @extends('layouts.layout')
 
-@section('title')
-    Genre : {{ $genre->libelle }}
-@endsection
-
 @section('content')
-
+    <div class="title m-b-md">
+        Genre : {{ $genre->libelle }}
+    </div>
     <div class="mangas-container">
         @foreach($mangas as $manga)
 

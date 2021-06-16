@@ -19,7 +19,7 @@
 
                     <div class="card-body">
                         <p>
-                            Site web créé à partir du Framework <b><a class="text-bold text-light text-decoration-none" href="https://laravel.com/"></b>Laravel</a>
+                            Site web créé à partir du Framework <b><a class="text-bold text-light text-decoration-none" href="https://laravel.com/">Laravel</a></b>
                             dans le cadre du cours ISI2 (Ingénierie Des Systèmes D'Information Niveau 2).
                         </p>
 

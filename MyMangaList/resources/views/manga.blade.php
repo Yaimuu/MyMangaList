@@ -59,9 +59,6 @@
                     @endguest
                 @endfor
             </div>
-
-
-
         </div>
 
         <p style="font-size: 3em;">Tomes</p>
