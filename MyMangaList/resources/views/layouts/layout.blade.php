@@ -27,9 +27,9 @@
 
                             <div class="profile-image" style="position: relative; top: 0; left: 0;">
                                 @if (Auth::user()->imageProfile != null)
-                                    <img src="images/{{ Auth::user()->imageProfile }}" class="bg-light" width="25" height="25" />
+                                    <img src="{{ asset('images/'.Auth::user()->imageProfile) }}" class="bg-light" width="25" height="25" />
                                 @else
-                                    <img src="images/default.png" class="rounded-circle bg-light" width="25" height="25"/>
+                                    <img src="{{ asset('images/default.png') }}" class="rounded-circle bg-light" width="25" height="25"/>
                                 @endif
                             </div>
 
