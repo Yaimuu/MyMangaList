@@ -57,12 +57,23 @@ class MangaController extends Controller
         if(Auth::user() != null)
             $grade = Auth::user()->allNotes()->where('Id_Manga', '=', $manga->Id_Manga)->get()->first();
 
-        $mangasEnCours = MangaLectureEnCours::all();
-        $mangasFini = MangaLectureFini::avg('note'); 
-        dd($mangasFini);
+        $moyenneNoteMangaEnCours = MangaLectureEnCours::where('Id_Manga', '=', $manga->Id_Manga)->avg('note');
+        $moyenneNoteMangaFini = MangaLectureFini::where('Id_Manga', '=', $manga->Id_Manga)->avg('note'); 
+
+        if($moyenneNoteMangaEnCours == null && $moyenneNoteMangaFini == null){
+            $moyenneNoteManga = "Aucune note n'a encore été entrée."; 
+        }
+        else
+        {
+            $i = 0; 
+            $moyenneNoteMangaEnCours == null ? : $i++; 
+            $moyenneNoteMangaFini  == null ? : $i++;
+            $moyenneNoteManga = ($moyenneNoteMangaEnCours + $moyenneNoteMangaFini)/$i; 
+        }
 
 
-        return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur', 'grade'));
+
+        return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur', 'grade', 'moyenneNoteManga'));
     }
 
     public function rate(Request $request)

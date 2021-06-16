@@ -27,6 +27,8 @@
             <div class="card-content" >
                 <h2>Auteur</h2><h3> {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</h3>
                 <h2>Dessinateur</h2><h3> {{ $artiste_dessinateur->nom }}, {{ $artiste_dessinateur->prenom }}</h3>
+                <h2>Note des utlisateurs : {{ $moyenneNoteManga }}</h2>
+
             </div>
 
             <div class="star-wrapper">
@@ -43,6 +45,7 @@
                     @endguest
                 @endfor
             </div>
+
         </div>
 
         <p style="font-size: 3em;">Tomes</p>
