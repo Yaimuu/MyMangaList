@@ -17,7 +17,6 @@
     <section class="manga-info">
         <div class="manga-general">
             <div class="manga-card" style="margin: 0 1em 0 0;">
-
                 <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
 
                 <div class="title">

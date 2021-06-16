@@ -23,6 +23,7 @@ Route::get('/', function () {
 Route::resource('mangas', MangaController::class);
 Route::patch('mangas', [MangaController::class, 'index'])->name('mangas');
 Route::resource('genres', GenreController::class);
+Route::patch('genres', [GenreController::class, 'index'])->name('genres');
 
 Route::get('rate', 'MangaController@rate')->name('rate');
 
