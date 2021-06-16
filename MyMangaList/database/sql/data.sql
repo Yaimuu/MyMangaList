@@ -122,6 +122,16 @@ INSERT INTO Artiste VALUES(DEFAULT, 'Inoue', 'Takehiko');
 INSERT INTO Artiste VALUES(DEFAULT, 'Shinjou', 'Mayu'); 
 INSERT INTO Artiste VALUES(DEFAULT, 'Sugisaki', 'Yukiru');
 
+INSERT INTO Genre Values(DEFAULT, 'Sport');
+INSERT INTO Genre Values(DEFAULT, 'Romance');
+INSERT INTO Genre Values(DEFAULT, 'Musqiue');
+INSERT INTO Genre Values(DEFAULT, 'Police');
+INSERT INTO Genre Values(DEFAULT, 'Ecchi');
+INSERT INTO Genre Values(DEFAULT, 'Demons');
+INSERT INTO Genre Values(DEFAULT, 'Shounen Ai');
+INSERT INTO Genre Values(DEFAULT, 'Yaoi');
+INSERT INTO Genre Values(DEFAULT, 'Thriller');
+
 INSERT INTO Auteur VALUES (DEFAULT, 1);
 INSERT INTO Auteur VALUES (DEFAULT, 2);
 INSERT INTO Auteur VALUES (DEFAULT, 3);
@@ -193,6 +203,20 @@ INSERT INTO GenreManga VALUES(15,5);
 INSERT INTO GenreManga VALUES(16,3);
 INSERT INTO GenreManga VALUES(17,4);
 INSERT INTO GenreManga VALUES(18,2);
+
+INSERT INTO GenreManga VALUES(19,7);
+INSERT INTO GenreManga VALUES(20,9);
+INSERT INTO GenreManga VALUES(21,10);
+INSERT INTO GenreManga VALUES(22,14);
+INSERT INTO GenreManga VALUES(23,13);
+INSERT INTO GenreManga VALUES(24,8);
+INSERT INTO GenreManga VALUES(25,7);
+INSERT INTO GenreManga VALUES(26,13);
+INSERT INTO GenreManga VALUES(27,11);
+INSERT INTO GenreManga VALUES(28,12);
+INSERT INTO GenreManga VALUES(29,10);
+INSERT INTO GenreManga VALUES(30,7);
+INSERT INTO GenreManga VALUES(31,6);
 
 
 -- Tomes Shingeki no Kyojin (id=1)

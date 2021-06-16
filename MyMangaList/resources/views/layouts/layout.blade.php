@@ -49,8 +49,8 @@
             <div class="links">
                 <a href="/">Accueil</a>
                 <a href="{{ route('mangas') }}">Mangas</a>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="btn-group dropdown" >
+                    <button class="btn btn-secondary dropdown-toggle" style="background-color: #1E1E2A; border-color:  #1E1E2A;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                       Genres
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
