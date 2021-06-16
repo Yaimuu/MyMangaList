@@ -100,4 +100,12 @@ class MangaController extends Controller
 
         return redirect('/mangas/'.$request["idManga"]);
     }
+
+    public function fini(Request $request)
+    {
+
+
+
+        return redirect('/mangas/'.$request["idManga"]);
+    }
 }

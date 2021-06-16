@@ -13,8 +13,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    <div>
+                        <a class="text-light text-bold tex" href="{{ route("amis") }}"> Amis </a>
+                    </div>
+                    <div>
+                        <a class="text-light text-bold tex" href="{{ route("mangas-fini") }}"> Mangas finis </a>
+                    </div>
 
-                    <a class="text-light text-bold tex" href="{{ route("amis") }}"> Amis </a>
 
 {{--                    <form action="{{ route('addFriend') }}" method="POST">--}}
 {{--                        @csrf--}}

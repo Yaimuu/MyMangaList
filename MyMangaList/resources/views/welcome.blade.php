@@ -19,14 +19,15 @@
 
                     <div class="card-body">
                         <p>
-                            Site web créé à partir du Framework <a href="https://laravel.com/">Laravel</a>
+                            Site web créé à partir du Framework <b><a class="text-bold text-light text-decoration-none" href="https://laravel.com/">Laravel</a></b>
                             dans le cadre du cours ISI2 (Ingénierie Des Systèmes D'Information Niveau 2).
                         </p>
 
                         <p>
                             Notre site est une maquette s'inspirant du célèbre site
-                            <a href="https://myanimelist.net/">My Anime List</a>
+                            <b><a class="text-bold text-light text-decoration-none" href="https://myanimelist.net/">My Anime List</a></b> !
                         </p>
+
                     </div>
                 </div>
             </div>
