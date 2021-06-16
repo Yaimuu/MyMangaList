@@ -43,7 +43,7 @@ class UtilisateurController extends Controller
             ->allFriends()
             ->where('Ami.Id_Utilisateur_1', '=', $request["id"])
             ->get();
-//        dd($request["id"]);
+
         if($ami->isEmpty())
         {
             $newAmi = new Ami();

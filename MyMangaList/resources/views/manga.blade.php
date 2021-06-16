@@ -23,16 +23,16 @@
                 <div class="title">
                     <p>{{$manga->titre}}</p>
 
-                    <a href="{{ route('fini', ['idManga' => $manga->Id_Manga]) }}" class="btn-manga-fini">
-                        Fini
-                    </a>
+{{--                    <a href="{{ route('fini', ['idManga' => $manga->Id_Manga]) }}" class="btn-manga-fini">--}}
+{{--                        Fini--}}
+{{--                    </a>--}}
                 </div>
             </div>
 
             <div class="card-content" >
                 @if($artiste_auteur != null)
                 <h2>Auteur</h2><h3> {{ $artiste_auteur->nom }}, {{ $artiste_auteur->prenom }}</h3>
-                
+
                 @else
                     <h2>Auteur</h2><h3 class="text-danger"> Auteur inconnu </h3>
                 @endif
@@ -79,7 +79,7 @@
                 </div>
                 @endforeach
             @else
-                <h3 class="text-danger">Pas de Tomes pour ce manga !</h3>
+                <h3 class="text-danger"> Pas de Tomes pour ce manga ! </h3>
             @endif
         </div>
     </section>
