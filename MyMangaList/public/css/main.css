@@ -126,6 +126,7 @@ footer
     height: 40vh;
     cursor: pointer;
     transition: 0.5s;
+    overflow: hidden;
 }
 
 .manga-card > img
@@ -190,6 +191,26 @@ footer
     display: flex;
     justify-content: center;
     padding-top: 2em;
+}
+
+.btn-manga-fini
+{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background: #1E1E2AA0;
+    padding: 0.5em;
+    width: 30%;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.btn-manga-fini:hover
+{
+    background: #1E1E2A;
+    color: white;
+    width: 50%;
 }
 
 /*****************
@@ -300,4 +321,20 @@ footer
 .ami:hover
 {
     background: #20204075;
+}
+/*****************
+    - Manga fini -
+*****************/
+.mangas-fini
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mangas-fini > *
+{
+    margin: 0.5em;
+}
+.mangas-fini > p{
+    font-size: 1.5em;
 }
