@@ -42,7 +42,7 @@
                 @else
                     <h2>Dessinateur</h2><h3 class="text-danger"> Dessinateur inconnu </h3>
                 @endif
-                <h2>Note des utlisateurs : {{ $moyenneNoteManga }}</h2>
+                <h2>Note des utilisateurs : {{ $moyenneNoteManga }}</h2>
             </div>
 
             <div class="star-wrapper">
