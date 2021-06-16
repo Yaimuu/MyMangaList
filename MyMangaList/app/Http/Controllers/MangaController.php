@@ -10,6 +10,7 @@ use App\Auteur;
 use App\Artiste;
 use App\Dessinateur;
 use App\Creer;
+use App\MangaLectureEnCours;
 use Illuminate\Support\Facades\DB;
 use stdClass;
 use Illuminate\Support\Facades\Auth;
@@ -55,6 +56,10 @@ class MangaController extends Controller
         $grade = null;
         if(Auth::user() != null)
             $grade = Auth::user()->allNotes()->where('Id_Manga', '=', $manga->Id_Manga)->get()->first();
+
+        $mangasEnCours = MangaLectureEnCours::all();
+        $mangasFini = MangaLectureFini::select(DB::raw('avg(score) as moyenne'))->get(); 
+
 
         return view('manga', compact('manga', 'tomes', 'createurs', 'artiste_auteur', 'artiste_dessinateur', 'grade'));
     }
