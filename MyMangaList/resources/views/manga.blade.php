@@ -17,7 +17,6 @@
     <section class="manga-info">
         <div class="manga-general">
             <div class="manga-card" style="margin: 0 1em 0 0;">
-
                 <img src="{{$manga->image}}" alt="{{$manga->titre}}" />
 
                 <div class="title">
@@ -31,7 +30,6 @@
             </div>
 
             <div class="star-wrapper">
-
                 @for ($i = 1; $i <= 5; $i++)
                     @guest
                     @else
@@ -45,7 +43,6 @@
                     @endguest
                 @endfor
             </div>
-
         </div>
 
         <p style="font-size: 3em;">Tomes</p>

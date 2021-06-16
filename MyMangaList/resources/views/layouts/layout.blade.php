@@ -10,6 +10,7 @@
         @yield('links')
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/main.css') }}" />
 
         <!-- Fonts -->
@@ -48,6 +49,18 @@
             <div class="links">
                 <a href="/">Accueil</a>
                 <a href="{{ route('mangas') }}">Mangas</a>
+                <div class="btn-group dropdown" >
+                    <button class="btn btn-secondary dropdown-toggle" style="background-color: #1E1E2A; border-color:  #1E1E2A;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Genres
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+                        @foreach(\App\Genre::all() as $genre)
+                            <li><a href="{{ route('genres.show', $genre->Id_Genre) }}" class="dropdown-item">{{$genre->libelle}}</a></li>
+                        @endforeach
+                    </ul>
+                </div>
+
                 @guest
 
                 @else
