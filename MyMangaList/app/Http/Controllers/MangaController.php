@@ -81,6 +81,6 @@ class MangaController extends Controller
                 ->update(['note' => $request["grade"]]);
         }
 
-        return $this->show($manga);
+        return redirect('/mangas/'.$request["idManga"]);
     }
 }

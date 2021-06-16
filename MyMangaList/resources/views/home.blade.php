@@ -14,25 +14,28 @@
                         </div>
                     @endif
 
-                    <br>
+                    <a class="text-light text-bold tex" href="{{ route("amis") }}"> Amis </a>
 
-                    <form action="{{ route('addFriend') }}" method="POST">
-                        @csrf
-                        <label for="users-list"><b>Choose a new friend</b></label>
-                        <br>
-                        <input list="user" id="users-list" name="user" />
-                        <datalist id="user">
-                            @foreach(\App\Utilisateur::all() as $user)
+{{--                    <form action="{{ route('addFriend') }}" method="POST">--}}
+{{--                        @csrf--}}
+{{--                        <label for="users-list"><b>Choose a new friend</b></label>--}}
+{{--                        <br>--}}
+{{--                        <input list="user" id="users-list" name="user" oninput="console.log(this.value);"/>--}}
+{{--                        <datalist id="user">--}}
+{{--                            @foreach(\App\Utilisateur::all() as $user)--}}
 {{--                                <option id="{{$user->Id_Utilisateur}}" name="{{$user->Id_Utilisateur}}" value="{{$user->name}}">{{$user->name}}</option>--}}
-                                @if($user->name != Auth::user()->name)
+{{--                                @if($user->name != Auth::user()->name)--}}
 {{--                                    <option value="{{$user->Id_Utilisateur}}">{{$user->name}}</option>--}}
 {{--                                    <option value="{{$user->name}}">{{$user->Id_Utilisateur}}</option>--}}
-                                    <option id="{{$user->Id_Utilisateur}}" name="{{$user->Id_Utilisateur}}" value="{{$user->name}}">{{$user->name}}</option>
-                                @endif
-                            @endforeach
-                        </datalist>
-                        <input type="submit" value="Add friend">
-                    </form>
+{{--                                    <option id="{{$user->Id_Utilisateur}}" value="{{$user->Id_Utilisateur}}">{{$user->name}}</option>--}}
+{{--                                    <option type="hidden" value="{{$user->Id_Utilisateur}}">{{$user->name}}</option>--}}
+{{--                                @endif--}}
+{{--                            @endforeach--}}
+{{--                        </datalist>--}}
+{{--                        <input type="hidden" name="id" id="friend-id">--}}
+
+{{--                        <input type="submit" value="Add friend">--}}
+{{--                    </form>--}}
                 </div>
             </div>
 
@@ -48,4 +51,17 @@
         </div>
     </div>
 </div>
+
+
+{{--    <script >--}}
+{{--        document.querySelector('#users-list').addEventListener('input', event => {--}}
+{{--            const value = event.target.value;--}}
+{{--            const opt = [].find.call(event.target.list.options, o => o.value === value);--}}
+
+{{--            if (opt) {--}}
+{{--                document.querySelector('#friend-id').setAttribute('value', event.target.value);--}}
+{{--                event.target.value = opt.textContent;--}}
+{{--            }--}}
+{{--        });--}}
+{{--    </script>--}}
 @endsection

@@ -45,4 +45,9 @@ class Utilisateur extends Authenticatable
     {
         return $this->hasMany(MangaLectureFini::class, 'Id_Utilisateur');
     }
+
+    public function allFriends()
+    {
+        return $this->hasMany(Ami::class, 'Id_Utilisateur');
+    }
 }

@@ -17,21 +17,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/**
+ * Mangas
+ */
 Route::resource('mangas', MangaController::class);
 Route::patch('mangas', [MangaController::class, 'index'])->name('mangas');
 Route::resource('genres', GenreController::class);
 
 Route::get('rate', 'MangaController@rate')->name('rate');
 
-//Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
-//Route::post('login', 'Auth\LoginController@authenticate');
-//Route::get('logout', 'Auth\LoginController@logout')->name('logout');
-//
-//Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-//Route::post('register', 'Auth\RegisterController@register');
-
+/**
+ * Utilisateurs
+ */
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/amis', 'UtilisateurController@showFriendList')->name('amis');
 Route::post('addFriend', 'UtilisateurController@addFriend')->name('addFriend');
 
