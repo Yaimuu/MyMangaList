@@ -263,8 +263,8 @@ footer
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    left: 5vw;
-    top: 1.5vh;
+    left: 8vw;
+    top: 3vh;
 }
 .profile-image > img
 {
