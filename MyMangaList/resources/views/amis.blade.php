@@ -18,11 +18,11 @@
                             @csrf
                             <label for="users-list"><b>Choose a new friend</b></label>
                             <br>
-                            <input list="user" id="users-list" oninput="console.log(this.value);"/>
+                            <input list="user" id="users-list"/>
                             <datalist id="user">
                                 @foreach(\App\Utilisateur::all() as $user)
                                     @if($user->name != Auth::user()->name)
-                                        <option id="{{$user->Id_Utilisateur}}" value="{{$user->Id_Utilisateur}}">{{$user->name}}</option>
+                                        <option class="user-option" id="{{$user->Id_Utilisateur}}" value="{{$user->Id_Utilisateur}}">{{$user->name}}</option>
                                     @endif
                                 @endforeach
                             </datalist>
@@ -73,6 +73,14 @@
                 document.querySelector('#friend-id').setAttribute('value', event.target.value);
                 event.target.value = opt.textContent;
             }
+
+            if(Array.from(document.querySelectorAll('.user-option')).find(el => el.textContent === value))
+            {
+                document.querySelector('#friend-id').setAttribute('value', Array.from(document.querySelectorAll('.user-option')).find(el => el.textContent === value).value);
+            }
+
+            // console.log(Array.from(document.querySelectorAll('.user-option')).find(el => el.textContent === value).innerHTML);
+            // console.log(event.target.value);
         });
     </script>
 @endsection
