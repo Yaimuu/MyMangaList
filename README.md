@@ -6,7 +6,7 @@
 |BERTRAND Adrien|
 |OULED MOUSSA Yanis|
 
-www.my-manga-list.yanis-ouled-moussa.fr (Temporairement indisponible suite à hack de la BDD)
+www.my-manga-list.yanis-ouled-moussa.fr
 
 ## Les différentes fonctionnalités du site : 
 - Un listing de mangas :
