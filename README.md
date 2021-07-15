@@ -1,5 +1,13 @@
 # MyMangaList
 
+|**Made by**|**Referent teacher**|
+|:-:|:-:|
+|AHMED KHAN Somir|Mme. CHATAING Béatrice|
+|BERTRAND Adrien|
+|OULED MOUSSA Yanis|
+
+www.my-manga-list.yanis-ouled-moussa.fr (Temporairement indisponible suite à hack de la BDD)
+
 ## Les différentes fonctionnalités du site : 
 - Un listing de mangas :
     - Global
