@@ -8,6 +8,8 @@
 
 www.my-manga-list.yanis-ouled-moussa.fr
 
+**Grade :** 17/20
+
 ## Les différentes fonctionnalités du site : 
 - Un listing de mangas :
     - Global
